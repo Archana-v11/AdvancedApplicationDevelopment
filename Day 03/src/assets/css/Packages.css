@@ -1,0 +1,43 @@
+.package{
+    background-color:#b385de;
+    position: relative;
+      
+  }
+  .package h1{
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .price {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 100px;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    opacity: 0; /* Initially hidden */
+    pointer-events: none; /* Ensure price does not affect hover events */
+    transition: opacity 0.3s ease;
+  }
+  
+  .package:hover .price {
+    opacity: 1; /* Show price on hover */
+  }
+  .pack {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center;
+  }
+  
+  .pack img {
+    
+    width: 170px; /* Adjust image width as needed */
+    /* Maintain aspect ratio */
+     /* Adjust margin between images */
+  }
+  
+  

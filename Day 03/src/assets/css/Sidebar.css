@@ -1,0 +1,58 @@
+/* Sidebar.css */
+
+/* Base styles */
+.side_bar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #755891; /* Dark purple background */
+    padding-top: 20px;
+    color: white;
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds height */
+  }
+  
+  .side_bar h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .side_bar .li_side{
+    color: white;
+  }
+  .side{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .li_side {
+    padding: 20px 20px; /* Increase padding for better spacing */
+    font-size: 20px; /* Decrease font size for better readability */
+    border-bottom: 1px solid #423445;
+    color: white;
+     /* Darker purple border */
+  }
+  
+  /* Styling links */
+ 
+  
+  .li_side:hover {
+    background-color: #4a3b4d; /* Darker purple background on hover */
+  }
+  
+  /* Icon styles */
+  
+  
+  /* Active link styles */
+  
+  
+  .i_con {
+    background-color: #fff; /* Change active icon color */
+    color: #fff; /* Change active icon color */
+  }
+  
+  .active a {
+    font-weight: bold; /* Bold text for active link */
+  }
+  

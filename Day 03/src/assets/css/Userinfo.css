@@ -1,0 +1,122 @@
+/* Userinfo.css */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  
+  .userinfo{
+
+  }
+  .app-container {
+    display: flex;
+    
+  }
+  
+  .nav {
+    flex: 1;
+    background-color: #333;
+    color: #563535;
+    padding: 20px;
+  }
+  
+  .nav__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav__list {
+    list-style: none;
+    margin-top: 30px;
+  }
+  
+  .nav__list-item {
+    margin-bottom: 15px;
+  }
+  
+  .nav__item-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav__item-link:hover {
+    text-decoration: underline;
+  }
+  
+  .nav__list-item--active .nav__item-link {
+    font-weight: bold;
+  }
+  
+  .app-view {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  .content p {
+    margin-bottom: 15px;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 260px;
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #9c7474;
+    color: black;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: black;
+  }
+  
+  
+  
+  a {
+    text-decoration: none;
+    color: #090606;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c82333;
+  }
+  
