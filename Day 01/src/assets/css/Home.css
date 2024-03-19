@@ -1,0 +1,173 @@
+.background1 {
+    background: no-repeat url('../images/Home.jpg');
+    
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+
+ 
+.home_h1 {
+  font-family:  "Helvetica Neue";
+    font-size: 96px;
+    color: #333;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-left: 200px;
+    text-transform: uppercase;
+    
+}
+
+.home_h2 {
+    font-size: 24px;
+    color: #433b3b;
+    font-weight: normal;
+    padding-left: 200px;
+    font-style: italic;
+}
+
+.home_h3 {
+    font-size: 21px;
+    color: #433b3b;
+    font-weight: normal;
+    padding-left: 200px;
+    font-style: italic;
+}
+button[type="homesubmit"] {
+    background-color:black; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 8px 12px; /* Button padding */
+    font-size: 16px; /* Button font size */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Button border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+    width: 200px;
+    margin-left: 400px;
+}
+
+
+/*Image css*/
+.sec_img {
+  background-color: #c3c1c1;
+  padding: 5px;
+}
+
+.home_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.home_img h2 {
+  margin: 0;
+  padding: 5px;
+  font-family:"Georgia", serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+  
+}
+
+.home_img h2:last-child {
+  border: none; /* Remove border from the last h2 element */
+}
+
+/*packages*/
+.package{
+  background-color:#b385de;
+  
+    
+}
+.package h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+.price {
+  
+  top: 100%;
+  left: 50%;
+  font-size: 100px;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  opacity: 0; /* Initially hidden */
+  pointer-events: none; /* Ensure price does not affect hover events */
+  transition: opacity 0.3s ease;
+}
+
+.package:hover .price {
+  opacity: 1; /* Show price on hover */
+}
+.pack {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center;
+}
+
+.pack img {
+  
+  width: 170px; /* Adjust image width as needed */
+  /* Maintain aspect ratio */
+   /* Adjust margin between images */
+}
+
+
+/*Footer*/
+.footer-content {
+  text-align: center;
+  background: #f0f0f0;
+  padding: 20px 0; /* Adjust padding */
+}
+
+.footer-content h3 {
+  font-size: 25px;
+  margin-top: 0; /* Remove default margin */
+}
+
+.social-link {
+  display: flex;
+  justify-content: center; /* Center align the social links */
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.social-link a {
+  display: inline-block;
+  margin-right: 8px; /* Adjust spacing between social links */
+}
+
+.si_con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: 44px;
+  color: white;
+  background-color: rgba(12, 73, 130, 0.8);
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.si_con:hover {
+  color: white;
+  transform: translateY(-5px);
+}
+
+.copyright {
+  background: #fff;
+  padding: 20px 0; /* Adjust padding */
+  text-align: center;
+  color: #555;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}

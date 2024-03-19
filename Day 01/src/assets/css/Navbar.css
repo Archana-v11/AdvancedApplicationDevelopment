@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+ 
+.navbar
+{
+    width: 1600px;
+    height: 80px; 
+    margin: auto;
+    margin-left: 150px;
+    margin: 0;
+    background-color:  #755891;
+    position: absolute;
+   position: fixed;
+}
+
+.icons
+{
+    width: 200px;
+    height: 70px;
+    float: left;
+    margin-left: 110px;
+    font-size: 24px;
+}
+
+.head
+{
+    color: rgba(255, 255, 255, 0.986);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    font-weight: lighter;
+    padding-top: 22px;
+   
+   
+}
+.nav1
+{
+    width: 4000px;
+    height: 70px;
+    margin-left: 650px;
+    
+   
+}
+.nav1 .nav_ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.nav1 .nav_ul .nav_li
+{
+     list-style: none;
+     margin-left: 44px;
+     margin-top: 27px;
+     font-size: 17px;
+}
+.nav1 .nav_ul .nav_li a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.986);
+    font-family: Arial;
+    font-weight: lighter;
+   display: block;
+    
+}
+
+
+    
+
+
+.content
+{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+    color: white;
+  
+    
+    
+}
+.content .para
+{
+    font-size: 55px;
+   
+    margin-top: 10%;
+    margin-left: 22%;
+    letter-spacing: normal;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    line-height: 75px;
+}
+
+
+.shopbut
+{
+    
+    width: 130px;
+    font-size: 18px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border-color: white;
+    
+    box-shadow: 0 3px 4px rgba(255, 255, 255, 0.986);
+    position: absolute;
+    
+}
+.tranbut
+{
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 22%;
+ 
+}
+.sec1
+{
+    font-size: 22;
+    font-family: 'Times New Roman';
+}
+.about,
+.service,
+.Design
+{
+    height: 100vh;
+    padding-top: 10px;
+    align-items: center;
+}
+.about
+{
+   background-color: rgb(230, 248, 130);
+}
+.service
+{
+   background-color: rgb(155, 249, 155);
+}
+.Design
+{
+    background-color: rgb(182, 237, 255);
+}
+
+
+
+/*header*/
+
+.name1
+{
+    color: #fff;
+}
+.log
+{
+    padding-left: 150px;
+}
