@@ -1,0 +1,67 @@
+#homebodyc2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #b5b3b3;
+  }
+  
+  #layerh2 {
+    background-color: #979393;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #bill12 {
+    max-width: 500px;
+  }
+  
+  #bill-container12 {
+    padding: 20px;
+  }
+  
+  #billform12 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  #billhead12 h1 {
+    text-align: center;
+  }
+  
+  #billform12 label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #inputbilling {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #list12 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #button1, #button2 {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #button1 {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  #button2 {
+    background-color: #f44336;
+    color: #fff;
+    margin-left: 60px;
+  }
+  

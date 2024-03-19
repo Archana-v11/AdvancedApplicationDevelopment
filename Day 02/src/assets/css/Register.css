@@ -1,0 +1,85 @@
+.register-page1 {
+  
+  background: no-repeat url('../images/Birthday.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:848px;
+  width:100%;
+  overflow:hidden;
+    
+    
+   }
+ 
+   center h6{
+     font-size: 25px;
+   }
+   .register1 {
+     width: 30%;
+     background: #FFF;
+     padding: 25px;
+     padding-top: 10px;
+     box-shadow: 1px 1px 1px 1px inset rgb(27, 26, 26);
+     border-radius: 2rem;
+     margin-right: auto; /* Center the container by pushing it to the left */
+     margin-left: 25%;
+    
+     
+    }
+    .borderbox{
+      outline: none;
+      border: 0;
+      background:none;
+      font-size: 16px;
+      padding: 5px;
+    }
+    
+    
+    .form-register1 label {
+     font-size: 17px;
+     margin-left: 20px;
+     font-weight:bolder;
+   }
+   
+   .register-input-email,
+   .register-input-password ,
+   .register-input-mobile{
+     background: #f3ebeb;
+     border-radius: 25px;
+     margin: 6px 0 9px 0;
+     padding: 10px;
+     display: flex;
+   }
+   
+   register-input[type="text"],
+   register-input[type="password"] {
+     width: 100%;
+     border: 0;
+     background: none;
+     font-size: 16px;
+     padding: 5px;
+     outline: none;
+   }
+   
+   .reg_btn {
+     width: 100%;
+     border-radius: 25px;
+     padding: 14px;
+     background: #4a53f4;
+     color: #FFF;
+     font-size: 18px;
+     font-weight: bold;
+     margin-top: 13px;
+     padding-left: 1%;
+    
+   }
+  
+   button:hover {
+     opacity: 0.9;
+   }
+   .reg{
+     padding-top:0%;
+     color: black;
+     font-size: 13px;
+     margin-left: -34px;
+   }
